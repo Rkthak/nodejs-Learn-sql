@@ -1,7 +1,5 @@
-const express = require("express");
+const app = require("./app");
 const { PORT, HOST } = require("./utils/config");
-
-const app = express();
 
 app.listen(PORT, HOST, (error) => {
   if (error) {
